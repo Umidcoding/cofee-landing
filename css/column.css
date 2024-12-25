@@ -1,9 +1,11 @@
 .fulled-container {
+  width: 1360px;
+  margin: 0 auto;
   padding: 0 20px;
 }
 
 .container {
-  width: 1400px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -11,6 +13,26 @@
 .row {
   display: flex;
   flex-flow: row wrap;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.around {
+  justify-content: space-around;
+}
+
+.evenly {
+  justify-content: space-evenly;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .col-1 {

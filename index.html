@@ -4,12 +4,411 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <!-- font inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&display=swap" rel="stylesheet">
+<!-- font inter -->
+<!-- font Righteous -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<!-- font Righteous -->
+ <!-- icons -->
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- icons -->
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/column.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <section id="hero">
+     <!-- start hero -->
+    <header class="hero__header header">
+      <div class="fulled-container">
+        <div class="header__inner row align-center between">
+          <nav class="header__nav nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link nav__link--active" href="#">Home</a>
+              </li>
+              <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Menu</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Reservation</a></li>
+            </ul>
+          </nav>
+          <div class="header__logos">
+            <img class="header__logo" src="media/img/cofee-logo.svg" alt="cofee-logo">
+          </div>
+          <nav class="header__nav nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link nav__link" href="#">Pages</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Shop</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
+              <li class="nav__item">
+                <a class="nav__link" href="#"><i class='bx bx-search'></i></a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#"><i class='bx bx-cart-alt'></i></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="hero__content">
+      <div class="container">
+        <div class="hero__des">
+          <h2 class="hero__title title">Enjoy Your Morning Coffee.</h2>
+          <p class="hero__text text__urbanist">The coofee is brewed by fist roasting the green coffee beans over hot coals in brazier. given to Opportunity</p>
+          <button class="hero__btn btn">Test Coffee</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <main>
+    <section id="about">
+      <!-- about start -->
+      <div class="container">
+        <div class="about__wrapper">
+          <div class="about__top">
+            <ul class="about__top-list row around between">
+              <li class="about__top-item">
+                <div class="about__top-des">
+                  <span class="about__top-spn text-righteous">01</span>
+                  <p class="about__top-text text-righteous">Best Coffee Flavour</p>
+                </div> 
+                <div class="about__top-imgs">
+                  <img class="about__top-img" src="media/img/about-top-one.png" alt="about-top-one">
+                </div>  
+              </li>
+              <li class="about__top-item">             
+                <div class="about__top-des">
+                  <span class="about__top-spn text-righteous">02</span>
+                  <p class="about__top-text text-righteous">Place to get lost</p>
+                </div> 
+                <div class="about__top-imgs">
+                  <img class="about__top-img" src="media/img/about-top-two.png" alt="about-top-two">
+                </div>  
+              </li>
+              <li class="about__top-item">  
+                <div class="about__top-des">
+                  <span class="about__top-spn text-righteous">03</span>
+                  <p class="about__top-text text-righteous">Proper roesting</p>
+                </div> 
+                <div class="about__top-imgs">
+                  <img class="about__top-img" src="media/img/about-top-three.png" alt="about-top-two">
+                </div>          
+              </li>
+            </ul>
+          </div>
+          <div class="about__bottom">
+            <div class="about__bottom-card">
+              <img class="about__bottom-img" src="media/img/about-bt-one.png" alt="about-bt-one" height="300">
+            </div>
+            <div class="about__bottom-card">
+              <img class="about__bottom-img about__bottom-imgs" src="media/img/about-bt-two.png" alt="about-bt-two" height="100">
+            </div>
+            <div class="about__bottom-card">
+              <img class="about__bottom-img" src="media/img/about-bt-three.png" alt="about-bt-three">
+            </div>
+            <div class="about__bottom-card">
+              <div class="about__bottom-des">
+                <p class="about__bottom-text text__urbanist">Our history</p>
+                <h3 class="about__bottom-title title">Create a new story with us</h3>
+                <p class="about__bottom-subtext text__urbanist">mauris rhoncus in imperdiet placerat. vestibu emismd nisl suscirpit ligula volutpat, a feyguat urn maxmaus. cars massa nibhtincidunt. donec et nibh maximus, est eu, mattis nuce. preasent ut quam quis quam venenatis fringilla. morbi vastibulum id tells mmodo mattis. aliauam erat volutpal.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- about end -->
+    </section>
+    <section id="product">
+      <!-- product start -->
+      <header class="product__header ">
+        <div class="container">
+          <div class="product__inner">
+            <div class="product__des">
+              <p class="product__text text__urbanist">Popular Product</p>
+              <h2 class="product__title title">Coffee popular Product</h2>
+            </div>
+            <ul class="product__list row between">
+              <li class="product__item">
+                <div class="product__item-card card">
+                  <img class="card__img" src="media/img/product-img.png" alt="product-img">
+                  <h4 class="card__title text-righteous">brazil coffee gred</h4>
+                  <div class="card__btns">
+                    <button class="card__btn btn"> <span><i class='bx bx-cart-alt'></i></span> Add to cart</button>
+                  </div>
+                </div>
+              </li>
+              <li class="product__item">
+                <div class="product__item-card card">
+                  <img class="card__img" src="media/img/product-img.png" alt="product-img">
+                  <div class="card__inner">
+                    <div class="card__stars">
+                      <p class="card__text text__urbanist">Coffee</p>
+                      <span class="card__spn">
+                        <i class='bx bxs-star'></i> <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i> <i class='bx bxs-star'></i>
+                        <i class='bx bx-star card'></i>
+                      </span>
+                    </div>
+                    <h4 class="card__title text-righteous">brazil coffee gred</h4>
+                    <p class="card__subtext text__urbanist">
+                      Price - <span class="card__price">$320.00/</span>$358
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="product__item">
+                <div class="product__item-card card">
+                  <img class="card__img" src="media/img/product-img.png" alt="product-img">
+                  <div class="card__stars">
+                    <p class="card__text text__urbanist">Coffee</p>
+                    <span class="card__spn">
+                      <i class='bx bxs-star'></i> <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i> <i class='bx bxs-star'></i>
+                      <i class='bx bx-star card'></i>
+                    </span>
+                  </div>
+                  <h4 class="card__title text-righteous">brazil coffee gred</h4>
+                  <p class="card__subtext text__urbanist">
+                    Price - <span class="card__price">$320.00/</span>$358
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <div class="product__btns">
+              <button class="product__btn btn">View all product</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- product end -->
+    </section>
+    <section id="buy">
+      <!-- buy start -->
+      <div class="container">
+        <div class="buy__content row align-center between">
+          <div class="buy__imgs">
+            <img class="buy__img" src="media/img/buy-img.png" alt="buy-img">
+          </div>
+          <div class="buy__des">
+            <h2 class="buy__title title">Coffee machine, buy for home</h2>
+            <p class="buy__text text__urbanist">mauris rhoncus in imperdiet placerat. vestibu emismd nisl suscirpit ligula volutpat, a feyguat urn maxmaus. cars massa nibhtincidunt. donec et nib maximus, est eu, mattis nuce. preasent ut quam quis quam venen atis fringilla. morbi vastibulum id tells mmodo mattis. aliauam erat volutpal.</p>
+            <button class="buy__btn btn">Discover now</button>
+          </div>
+        </div>
+      </div>
+      <!-- buy end -->
+    </section>
+    <section id="menu">
+      <!-- menu start -->
+      <div class="container">
+        <div class="menu__content">
+          <div class="menu__des">
+            <p class="menu__text text__urbanist">Menu</p>
+            <h2 class="menu__title title">Coffee popular menu</h2>
+          </div>
+          <ul class="menu__list row justify-center">
+            <li class="menu__item"><p class="menu__subtitle text-righteous">Americano rosted gred</p></li>
+            <li class="menu__item"><p class="menu__subtitle text-righteous">Americano rosted gred</p></li>
+            <li class="menu__item"><p class="menu__subtitle text-righteous">Americano rosted gred</p> </li>
+            <li class="menu__item"><p class="menu__subtitle text-righteous">Americano rosted gred</p> </li>
+            <li class="menu__item"><p class="menu__subtitle text-righteous">Americano rosted gred</p> </li>
+            <li class="menu__item"><p class="menu__subtitle text-righteous">Americano rosted gred</p> </li>
+            <li class="menu__item"><p class="menu__subtitle text-righteous">Americano rosted gred</p> </li>
+            <li class="menu__item"><p class="menu__subtitle text-righteous">Americano rosted gred</p></li>
+          </ul>
+        </div>
+      </div>
+      <!-- menu end -->
+    </section>
+    <section id="test">
+      <!-- test start -->
+      <div class="container">
+        <div class="test__content">
+          <div class="test__des">
+            <p class="test__text text__urbanist">Testimonial</p>
+            <h2 class="test__title title">Says our customers</h2>
+          </div>
+          <div class="test__inner row between"> 
+            <div class="test__person person">
+              <div class="person__imgs">
+                <img class="person__img" src="media/img/test-imgone.png" alt="test-img">
+                <p class="person__name text__urbanist">John Smith</p>
+                <p class="person__profession text__urbanist">Product Designer</p>
+              </div>
+              <div class="person__des">
+                <p class="person__text text__urbanist">Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP..</p>
+                <p class="person__star">
+                  <span class="person__spn">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div class="test__person person">
+              <div class="person__imgs">
+                <img class="person__img" src="media/img/test-imgtwo.png" alt="test-img">
+                <p class="person__name text__urbanist">Brett Lee</p>
+                <p class="person__profession text__urbanist">User Experience Designer</p>
+              </div>
+              <div class="person__des">
+                <p class="person__text text__urbanist">Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP..</p>
+                <p class="person__star">
+                  <span class="person__spn">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="test__info row between">
+            <div class="test__people">
+              <p class="test__subtext text__urbanist">2/6 People</p>
+              <div class="test__statics"><div class="test__static"></div></div>
+            </div>
+            <div class="test__btns">
+              <button class="test__btn">
+                <span class="test__btn-spn"> <i class='bx bx-left-arrow-alt'></i></span>
+             </button>
+              <button class="test__btn test__btn--active">
+                <span class="test__btn-spn"><i class='bx bx-right-arrow-alt'></i></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- test end -->
+    </section>
+    <section id="reservation">
+      <!-- start reservation-->
+      <div class="container">
+        <div class="reservation__content row">
+          <iframe class="reservation__location"
+          src="https://www.google.com/maps?q=40.712776,-74.005974&z=15&output=embed" 
+          width="580" 
+          height="652" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy">
+      </iframe>
+      <div class="reservation__table table">
+        <div class="table__des">
+          <p class="table__text text__urbanist">Reservation</p>
+          <h3 class="table__title title">Booking a table</h3>
+        </div>
+        <form class="table__form" action="https://echo.htmlacademy.ru/">
+          <div class="table__inps">
+            <input class="table__inp" type="text" name="person" id="person" placeholder="4 Person" required>
+          </div>
+          <div class="table__inps">
+            <input class="table__inp" type="text" id="person" name="date" placeholder="12.25,2024" required>
+          </div>
+          <div class="table__inps">
+            <input class="table__inp" type="text" id="time" name="time" placeholder="11:00 AM" required>
+          </div>
+          <div class="table__btns row justify-center">
+            <button class="table__btn btn" type="submit">BOOK S TABLE</button>
+          </div>
+        </form>
+      </div>
+        </div>
+      </div>
+       <!-- end reservation-->
+    </section>
+    <!-- news start -->
+    <section id="news">
+      <div class="container">
+        <div class="news__content">
+          <div class="news__des">
+            <p class="news__text text__urbanist">Testimonial</p>
+            <h2 class="news__title title">Our latest news</h2>
+          </div>
+          <ul class="news__list">
+            <li class="news__item">
+              <img class="news__img" src="media/img/news-img.png" alt="news-img">
+              <div class="news__wrapper">
+                <div class="news__inner">
+                  <p class="news__subtext text__urbanist"><span class="news__spn"> By:</span>rasaline</p>
+                  <p class="news__date text__urbanist">23.01.2021</p>
+                </div>
+                 <p class="news__info text-righteous">Ideal cocktails from barmen....</p>
+                 <p class="news__more text__urbanist">Read More <span class="news__icon"><i class='bx bx-right-arrow-alt'></i></span></p>
+              </div>
+            </li>
+            <li class="news__item">
+              <img class="news__img" src="media/img/news-img.png" alt="news-img">
+              <div class="news__wrapper">
+                <div class="news__inner">
+                  <p class="news__subtext text__urbanist"><span class="news__spn"> By:</span>rasaline</p>
+                  <p class="news__date text__urbanist">23.01.2021</p>
+                </div>
+                 <p class="news__info text-righteous">Ideal cocktails from barmen....</p>
+                 <p class="news__more text__urbanist">Read More <span class="news__icon"><i class='bx bx-right-arrow-alt'></i></span></p>
+              </div>
+            </li>
+            <li class="news__item">
+                <img class="news__img" src="media/img/news-img.png" alt="news-img">          
+              <div class="news__wrapper">
+                <div class="news__inner">
+                  <p class="news__subtext text__urbanist"><span class="news__spn"> By:</span>rasaline</p>
+                  <p class="news__date text__urbanist">23.01.2021</p>
+                </div>
+                 <p class="news__info text-righteous">Ideal cocktails from barmen....</p>
+                 <p class="news__more text__urbanist">Read More <span class="news__icon"><i class='bx bx-right-arrow-alt'></i></span></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- news end -->
+    </section>
+  </main>
+  <footer id="footer">
+    <div class="container">
+      <div class="footer__content row between">
+        <nav class="footer__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+              <img src="media/img/cofee-logo.svg" alt="">
+              </a>
+            </li>
+            <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Rerervation</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Menu</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Pages</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Shop</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Blogs</a></li>
+          </ul>
+        </nav>
+        <form class="footer__form" action="">
+          <input class="footer__inp" type="email" name="email" placeholder="Enter your email">
+          <button class="footer__btn test__btn">
+            <span class="test__btn-spn"><i class='bx bx-right-arrow-alt'></i></span>
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__text text__urbanist">e-Tennis © 2021. All rights reserved.</p>
+    </div>
+  </footer>
   <script src="js/main.js"></script>
 </body>
 </html>
